@@ -52,7 +52,7 @@ const createModule = (moduleName: string): void => {
     });
 };
 
-// Utility function to capitalize the module name
+// Utility function to capitalize the module names
 const capitalize = (str: string): string => str.charAt(0).toUpperCase() + str.slice(1);
 
 // Get the module name from command-line arguments
